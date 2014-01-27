@@ -19,5 +19,5 @@ puts students[5]
 puts students[6]
 #finally we print the total
 
-print "Overall, we have #{student.length} outstanding students"
+puts "Overall, we have #{student.lenght} outstanding students"
 #it's important that print() doesn't add new line characters
