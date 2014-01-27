@@ -6,14 +6,21 @@ students =[
 "Edna Krabappel",
 "Lionel Hutz",
 "Patty Bouvier",
-"Eleanor Abernathy"]
-#first, we print the list of students
-puts "The Students of my cohort at Makers Academy"
-puts "---------------"
-students.each do |students|
-	puts students
+"Eleanor Abernathy"
+]
+def print_header
+	puts "The students of my cohort at Makers Academy"
+	puts "============="
 end
-#finally we print the total
 
-puts "Overall, we have #{students.length} outstanding students"
-#it's important that print() doesn't add new line characters
+def print(names)
+	names.each do |name|
+		puts name
+	end
+end
+
+
+def print_footer(names)
+	puts "Overall, we have #{names.length} students"
+end
+
