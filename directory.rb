@@ -1,4 +1,4 @@
-student_count = 7
+#here, we're placing the students into an array
 students =[
 "Bumblebee Man",
 "Disco Stu",
@@ -10,13 +10,9 @@ students =[
 #first, we print the list of students
 puts "The Students of my cohort at Makers Academy"
 puts "---------------"
-puts students[0]
-puts students[1]
-puts students[2]
-puts students[3]
-puts students[4]
-puts students[5]
-puts students[6]
+students.each do |students|
+	puts students
+end
 #finally we print the total
 
 puts "Overall, we have #{students.length} outstanding students"
